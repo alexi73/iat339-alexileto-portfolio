@@ -6,7 +6,34 @@ section {
     margin: 1rem 10% 4rem;
 }
 
+h1.title {
+    font-size: 5rem;
+    font-family: 'PP Editorial New', 'sans-serif';
+    font-style: normal;
+}
+
+h2.intro {
+    font-size: 5rem;
+    font-family: 'PP Editorial New', sans-serif;
+    max-width: 80rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'PP Editorial New', sans-serif;
+    max-width: 80rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'PP Editorial New', sans-serif;
+    max-width: 40rem;
+}
+
 p {
-    max-width: 32rem;
+    font-size: 1rem;
+    font-family: 'PP Neue Montreal', sans-serif;
+    max-width: 40rem;
+    line-height: 2rem;
 }
 
