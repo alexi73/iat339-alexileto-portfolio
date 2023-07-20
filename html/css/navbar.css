@@ -1,0 +1,15 @@
+nav {
+    background-color: #233E82;
+    padding: 20px;
+}
+
+.nav-item {
+    position: relative;
+    padding: 20px;
+}
+
+nav > a {
+    font-family: 'PP Neue Montreal', sans-serif;
+    color: white;
+    text-decoration: none;
+}
