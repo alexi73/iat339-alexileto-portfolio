@@ -1,5 +1,6 @@
+/* Right-aligned nav-items: https://www.w3schools.com/howto/howto_css_topnav_right.asp */
+
 nav {
-    background-color: #233E82;
     padding: 36px;
 }
 
@@ -8,9 +9,16 @@ nav {
 }
 
 .nav-right > a {
+    display: inline-block;
     position: relative;
     padding: 24px;
     font-family: 'PP Neue Montreal', sans-serif;
-    color: white;
+    color: #313130;
+    opacity: 50%;
     text-decoration: none;
+}
+
+.nav-right > a:hover {
+    transition: ease-in-out 0.5s;
+    opacity: 100%;
 }
