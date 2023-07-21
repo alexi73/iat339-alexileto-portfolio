@@ -1,27 +1,47 @@
-/* Link to add Pangram Pangram fonts: https://pangrampangram.com/pages/faq */
+/* Link to add Pangram Pangram fonts: https://pangrampangram.com/pages/faq
+Converted .otf files to .ttf files using: https://transfonter.org/ */
 
-/* @font-face {
-    font-family: 'PPEditorialNew';
-    src: url('/fonts/PPEditorialNew-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PPNeueMontreal';
-    src: url('/fonts/PPNeueMontreal-Book.otf') format('opentype'); 
-    font-weight: normal;
-    font-style: normal;
-} */
-
+/* PP Editorial New */
 @font-face {
     font-family: 'PP Editorial New';
     src: url('/fonts-ttf/PPEditorialNew-Regular.ttf') format('truetype');
     font-weight: 100;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'PP Editorial New';
+    src: url('/fonts-ttf/PPEditorialNew-Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* PP Neue Montreal */
 
 @font-face {
     font-family: 'PP Neue Montreal';
     src: url('/fonts-ttf/PPNeueMontreal-Book.ttf') format('truetype');
     font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('/fonts-ttf/PPNeueMontreal-Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('/fonts-ttf/PPNeueMontreal-Bold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('/fonts-ttf/PPNeueMontreal-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: thin;
 }
