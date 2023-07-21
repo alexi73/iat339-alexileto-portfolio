@@ -7,21 +7,27 @@ section {
 }
 
 h1.title {
-    font-size: 5rem;
+    font-size: 4rem;
+    margin-top: 10rem;
     font-family: 'PP Editorial New', 'sans-serif';
     font-style: normal;
+    text-align: center;
+    color: #313130;
 }
 
+/* Understanding font-weight: https://www.udacity.com/blog/2021/01/html-css-font-weight.html#:~:text=What%20is%20Font%20Weight%3F,light%20your%20text%20will%20appear. */
+
 h2.intro {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: 'PP Editorial New', sans-serif;
     font-style: normal;
-    max-width: 80rem;
+    text-align: center;
+    font-weight: 400;
     color: #233E82;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'PP Editorial New', sans-serif;
     font-style: normal;
     max-width: 80rem;
