@@ -1,14 +1,15 @@
 nav {
     background-color: #233E82;
-    padding: 20px;
+    padding: 36px;
 }
 
-.nav-item {
+.nav-right {
+    float: right;
+}
+
+.nav-right > a {
     position: relative;
-    padding: 20px;
-}
-
-nav > a {
+    padding: 24px;
     font-family: 'PP Neue Montreal', sans-serif;
     color: white;
     text-decoration: none;
