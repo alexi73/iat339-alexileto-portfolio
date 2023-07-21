@@ -3,12 +3,12 @@ body {
 }
 
 section {
-    margin: 1rem 10% 4rem;
+    margin: 1rem 18% 4rem;
 }
 
 h1.title {
     font-size: 4rem;
-    margin-top: 10rem;
+    margin-top: 30vh;
     font-family: 'PP Editorial New', 'sans-serif';
     font-style: normal;
     text-align: center;
@@ -38,6 +38,10 @@ h3 {
     font-family: 'PP Editorial New', sans-serif;
     font-style: normal;
     max-width: 40rem;
+}
+
+p.bio {
+    margin-top: 50vh;
 }
 
 p {
