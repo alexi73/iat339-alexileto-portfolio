@@ -1,6 +1,7 @@
 /* Right-aligned nav-items: https://www.w3schools.com/howto/howto_css_topnav_right.asp */
 
 nav {
+    margin: 1rem 8% 4rem;
     padding: 36px;
 }
 
