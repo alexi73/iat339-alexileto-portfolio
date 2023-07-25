@@ -8,41 +8,56 @@
 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/styleguide.css" rel="stylesheet">
 
   </head>
 
   <body>
   <!-- Started with style guide template from lab   -->
 
-    <h1>Alex Ileto</h1>
-
     <nav>
-      
-      <p>
-        Go to:
-        <a href="#interactive_elements">Interactive Elements</a>
-        <a href="#text_elements">Text Elements</a>
-        <a href="#combined_elements">Combined Elements</a>
-      </p>
-
+      <div class="nav-right">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <!-- <a href="about.html">About</a> -->
+          <!-- <a href="resume.html">Resume</a> -->
+          <a class="active" href="styleguide.html">Style Guide</a>
+          <a href="#interactive_elements">Interactive Elements</a>
+          <a href="#text_elements">Text Elements</a>
+          <a href="#combined_elements">Combined Elements</a>
+      </div>
     </nav>
 
+    <section id="header">
+      <h1 class="title">Design Portfolio Style Guide</h1>
+    </section>  
+
+    <section id="About">
+      <h2 class="intro">Style guide for Alex Ileto's design portfolio. Explore the branding, interactive elements, and text elements below.</h2>
+  </section>
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <section id="interactive_elements">
+
+      <h3 class="section-title">Interactive Elements</h3>
+
+      <p>This section explores how the buttons, links, and text input fields will look like.</p>
+    
 
       <!-- Default Button styling section -->
       <section>
 
         <h2>Navigation Button</h2>
 
-        <h3>CSS selector:</h3>
+        <h4>CSS selector:</h4>
         <p>.button-nav</p>
 
-        <h3>Sample code:</h3>
+        <h4>Sample code:</h4>
         <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
 
-        <h3>Rendered element:</h3>
+        <h4>Rendered element:</h4>
         <a class="button" href="#">Default Button</a>
 
       </section>
@@ -68,19 +83,19 @@
     <section id="text_elements">
 
       <section>
-        <h2>Headings</h2>
+        <h4>Headings</h4>
       </section>
 
       <section>
-        <h2>Paragraphs</h2>
+        <h4>Paragraphs</h4>
       </section>
 
       <section>
-        <h2>Bulleted Lists</h2>
+        <h4>Bulleted Lists</h4>
       </section>
 
       <section>
-        <h2>Numbered Lists</h2>
+        <h4>Numbered Lists</h4>
       </section>
 
     </section>
@@ -92,11 +107,11 @@
     <section id="combined_elements">
 
       <section>
-        <h2>Main Navigation</h2>
+        <h4>Main Navigation</h4>
       </section>
 
       <section>
-        <h2>Product Listing</h2>
+        <h4>Product Listing</h4>
       </section>
 
     </section>
