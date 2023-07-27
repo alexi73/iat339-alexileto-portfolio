@@ -1,7 +1,33 @@
 .section-title {
-    margin-top: 50vh;
+    margin-top: 30vh;
 }
 
-.nav-styling {
-    
+/* Style for navigation link in the style guide */
+.nav-style {
+    float: none;
+}
+
+.nav-style > a {
+    display: inline-block;
+    position: relative;
+    font-family: 'PP Neue Montreal', sans-serif;
+    color: #313130;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.nav-style > a:hover {
+    transition: ease-in-out 0.5s;
+    opacity: 100%;
+}
+
+a.active-nav {
+    text-decoration-line: underline;
+    color: #313130;
+    opacity: 100%;
+    margin-left: 2vh;
+}
+
+a.active-link {
+    margin-left: 2vh;
 }
