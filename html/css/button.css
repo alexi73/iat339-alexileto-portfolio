@@ -1,0 +1,32 @@
+/* Styling of round buttons: https://www.w3schools.com/howto/howto_css_round_buttons.asp */
+
+.button {
+    border: 1.6px solid;
+    background-color: #233E82;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    border-radius: 18px;
+    border-color: #233E82;
+
+    color: #FBF9F6;
+    text-transform: uppercase;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: thin;
+}
+
+.button:hover {
+    transition: ease-in-out 0.4s;
+    background-color: #FBF9F6;
+
+    border-color: #233E82;
+    color: #233E82;
+}
+
+.button.activ-button {
+    text-decoration-line: underline;
+}
+
