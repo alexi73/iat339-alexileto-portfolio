@@ -1,5 +1,12 @@
 .section-title {
-    margin-top: 30vh;
+    margin-top: 10vh;
+}
+
+/* Subclass CSS */
+
+.sub-class {
+    margin: 0rem;
+    margin-top: 4vh;
 }
 
 /* Style for navigation link in the style guide */
@@ -25,9 +32,5 @@ a.active-nav {
     text-decoration-line: underline;
     color: #313130;
     opacity: 100%;
-    margin-left: 2vh;
-}
-
-a.active-link {
     margin-left: 2vh;
 }
