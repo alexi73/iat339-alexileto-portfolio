@@ -21,10 +21,11 @@
     color: #313130;
     opacity: 50%;
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 .nav-style > a:hover {
-    transition: ease-in-out 0.5s;
+    transition: ease-out 0.5s;
     opacity: 100%;
 }
 
@@ -33,4 +34,47 @@ a.active-nav {
     color: #313130;
     opacity: 100%;
     margin-left: 2vh;
+}
+
+p.editorial {
+    font-family: 'PP Editorial New', sans-serif;
+}
+
+p.cream {
+    background-color: #FBF9F6;
+    color: #313130;
+    border: 1.6px solid;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    border-radius: 18px;
+    border-color: #313130;
+}
+
+p.charcoal {
+    background-color: #313130;
+    color: #FBF9F6;
+    border: 1.6px solid;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    border-radius: 18px;
+    border-color: #313130;
+}
+
+p.blue {
+    background-color: #233E82;
+    color: #FBF9F6;
+    border: 1.6px solid;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+
+    border-radius: 18px;
+    border-color: #233E82;
 }
