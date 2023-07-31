@@ -64,7 +64,7 @@ h2 {
     color: #313130;
     font-size: 2rem;
     font-family: 'PP Editorial New', sans-serif;
-    font-style: italic;
+    font-style: normal;
     max-width: 80rem;
 }
 
@@ -133,6 +133,29 @@ input[type=text] {
     font-family: 'PP Neue Montreal', sans-serif;
 }
 
+/* Image as a Link */
+
+.linked-img {
+    display: inline-block;
+    position: relative;
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+
+.linked-img:hover {
+    transition: ease-out 0.5s;
+    opacity: 50%;
+}
+
+.vertical-img {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+
 footer {
     text-align: center;
     padding: 1rem;
@@ -142,4 +165,8 @@ footer {
 .footer-text {
     text-align: center;
     color: #FBF9F6;
+}
+
+h2.footer-text {
+    max-width: 100%;
 }
