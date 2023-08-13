@@ -6,9 +6,31 @@ div {
     display: block;
 }
 
+/* Adding margins to section */
+
 section {
     margin: 1rem 18% 4rem;
 }
+
+@media screen and (max-width: 480px) {
+    section {
+        margin: 0.2rem 6% 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        margin: 0.6rem 10% 4rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    section {
+        margin: 1rem 18% 4rem;
+    }
+}
+
+/* End of margins section */
 
 a {
     font-family: 'PP Neue Montreal', sans-serif;
