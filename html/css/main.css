@@ -52,6 +52,11 @@ a.active-link {
     margin-left: 2vh;
 }
 
+a.citation {
+    display: block;
+    line-height: 3rem;
+}
+
 /* For headers, subheaders, paragraphs */
 
 h1 {
@@ -191,4 +196,8 @@ footer {
 
 h2.footer-text {
     max-width: 100%;
+}
+
+#citations {
+    margin-top: 40vh;
 }
